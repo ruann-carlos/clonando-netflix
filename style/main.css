@@ -27,7 +27,13 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Arial Narrow',Times;
     font-size: 48px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
 
+header .logo:hover{
+    font-size: 52px;
+    
 }
 
 header nav a{
@@ -94,8 +100,10 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 .carroselFilmes{
     margin-top: 5px;
 }
+
