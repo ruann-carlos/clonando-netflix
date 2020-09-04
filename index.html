@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="./style/main.css" class="rel">
-    <script src="https://kit.fontawesome.com/60102d69d9.js" crossorigin="anonymous"></script>
+   
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -25,7 +28,7 @@
             <div class="container">
                 <h3 class="titulo">VIKINGS</h3>
                 <p class="descricao">Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico. Mas para conseguir conquistá-las ele precisa convencer Earl Haraldson, o líder de seu povo, a permitir que ele e seus guerreiros viagem em direção à Inglaterra.</p>
-            </div>
+            
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
@@ -36,7 +39,46 @@
                         MAIS INFORMAÇÕES
                     </button>
                 </div>
+            </div>
         </div>
     </main>
+
+    <div class="carroselFilmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class= "box-filme"src="/resources/vikingsmin.jpg" alt="vikings">
+            </div>
+            <div class="item">
+                <img class= "box-filme" src="/resources/anne.jpg" alt="anne">
+            </div>
+            <div class="item">
+                <img class= "box-filme"src= "./resources/bracking.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class= "box-filme"src="/resources/dark.jpg" alt="vikings">
+            </div>
+            <div class="item">
+                <img class= "box-filme"src="/resources/flash.jpg" alt="vikings">
+            </div>
+            <div class="item">
+                <img class= "box-filme"src="/resources/greys.jpg" alt="vikings">
+            </div>
+            <div class="item">
+                <img class= "box-filme"src="/resources/lucifer.jpg" alt="vikings">
+            </div>
+            <div class="item">
+                <img class= "box-filme"src="/resources/rickandmorty.jpg" alt="vikings">
+            </div>
+            <div class="item">
+                <img class= "box-filme"src="/resources/umbrella.jpg" alt="vikings">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/60102d69d9.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
